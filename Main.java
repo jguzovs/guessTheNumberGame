@@ -28,7 +28,7 @@ public class Main {
             tryCount++;
             livesLeft--;
 
-            if (playerGuess == numberToGuess && livesLeft >= 1) {
+            if (playerGuess == numberToGuess && livesLeft >= 0) {
                 System.out.println("You are right! You win!");
                 System.out.println("It took you " + tryCount + " tries to guess.");
                 break;
